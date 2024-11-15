@@ -1,0 +1,12 @@
+1. converted the project file name inside the root directory to config
+2. created two files named django and settigs.
+    1. django: base, local, production, test.
+        base.py: everything from the settings.py
+        local.py: inherits base.py and overrides some settings for local env
+        production.py: inherits base.py and overrides some settings for ptoduction env 
+    2. setting: not used yet.
+
+3. created .env file where we have kept some variables.
+4. made some changes in the base.py
+5. changed the path to the config.django.local in (manage, wsgi, asgi).py files.
+6. the third-party configuration goes to settings folder like.  
